@@ -1,0 +1,300 @@
+/*The header section*/
+.background{
+
+    /*place a picture as an image*/
+    background-image: url("Pictures/victim6.png");
+
+    /*set the height of the image*/
+    min-height: 660px;
+
+    /*to position the image properly*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.container img{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+.background .row{
+    float: left;
+    margin-left: 940px;
+    margin-top: 20px;
+}
+
+  .email{
+
+      color: blanchedalmond;
+      font-size: medium;
+      
+  }
+
+  .body{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-weight: bold;
+      
+  }
+
+  .navbar{
+
+      float: right;
+  }
+
+
+  nav ul{
+
+    margin-top:40px;
+    margin-right: 165px;
+    padding: 0;
+    list-style: none;
+}
+
+  nav li{
+
+      display: inline-block;
+      text-align: right;
+      padding-left:30px;
+
+  }
+
+  nav a{
+    color:blanchedalmond; ;
+    text-decoration: none;
+}
+
+
+a{
+    color:blanchedalmond;
+    text-decoration: none;
+}
+
+
+nav a:hover{
+    color: black;
+}
+
+a:hover{
+    color: black;
+}
+
+/*the text in the header*/
+.container h1{
+
+    margin-top: 350px;
+    position: absolute;
+    margin-left: 570px;
+    color: blanchedalmond;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3 { max-width: 100%; }
+h1 { max-width: 100%; }
+.container { max-width: 100%; }
+.container h3{
+
+  margin-top: 450px;
+  position: absolute;
+  margin-left: 470px;
+  color: blanchedalmond;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.button-row{
+
+
+  margin-top: 550px;
+  position: absolute;
+  margin-left: 650px;
+
+}
+
+button{
+  background-color: #04AA6D;
+  color: blanchedalmond;
+  font-size: 16px;
+  width: 180px;
+  height: 50px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 30px;
+  border-color:#04AA6D ;
+}
+
+button:hover{
+ background-color: transparent;
+}
+
+
+/*the body*/
+.second_layout{
+
+    
+    /*set the height */
+    min-height: 1360px;
+    background-color: black;
+
+}
+
+/*the body*/
+.form{
+
+    
+    /*set the height */
+    height: 1200px;
+    width: 900px;
+    border-radius: 4px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 300px;
+    background-color: white;
+
+}
+
+.map{
+    position: absolute;
+    padding: 70px;
+    margin-top: 80px;
+    margin-left: 770px;
+}
+
+
+.contact_us a{
+    color: black;
+}
+
+iframe{
+    position: absolute;
+    padding: 70px;
+    margin-top: 820px;
+    margin-left: 290px;
+}
+
+body { max-width: 100%; }
+.form button{
+
+
+    margin-top: 250px;
+    position: absolute;
+    margin-left: 60px;
+
+}
+
+.second_layout .header{
+
+    font-size: 40px;
+    padding: 70px;
+    font-weight: bolder;
+    text-align: left;
+    
+
+}
+
+
+.input{
+
+    margin-left: 65px;
+}
+
+.email{
+    margin-top: 50px ;
+}
+
+.subject{
+    margin-top: 50px;
+}
+input{
+    border-color: black;
+    color: black;
+    background-color: transparent;
+    width: 430px;
+    height: 50px;
+}
+
+
+textarea{
+    border-color: black;
+    color: black;
+    text-align: left;
+    background-color: transparent;
+    width: 430px;
+    height: 150px;
+}
+
+.input textarea{
+
+    position: absolute;
+    margin-top: 50px;
+}
+/*The footer section*/
+.footer_layout{
+
+    min-height: 400px;
+    background-color: blanchedalmond;
+ }
+
+ .footer_position{
+     margin-left: 30px;
+ }
+
+ .footer_logo{
+
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 40px;
+ }
+ .found{
+
+     width: 400px;
+     height: 300px;
+     position: absolute;
+     font-size: 16px;
+     margin-top: 160px;
+     margin-left: 150px;
+ }
+ .footer_layout .row{
+     position: absolute;
+     margin-top: 280px;
+     margin-left: 135px;
+ }
+ .contact_us{
+
+    position: absolute;
+     margin-top: 130px;
+     margin-left: 635px;
+     white-space: 20px;
+
+ }
+
+ .contact{
+
+    position: absolute;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-left: 635px;
+
+}
+
+.information{
+
+    position: absolute;
+    font-size: 16px;
+    margin-top: 125px;
+    margin-left: 1100px;
+
+}
+
+.info{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-left: 1100px;
+}

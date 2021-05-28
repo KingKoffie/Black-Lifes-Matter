@@ -1,0 +1,262 @@
+/*The header section*/
+.background{
+
+    /*place a picture as an image*/
+    background-image: url("Pictures/victim1.png");
+
+    /*set the height of the image*/
+    min-height: 660px;
+
+    /*to position the image properly*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.container img{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+.background .row{
+    float: left;
+    margin-left: 940px;
+    margin-top: 20px;
+}
+
+  .email{
+
+      color: blanchedalmond;
+      font-size: medium;
+      
+  }
+
+  .body{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-weight: bold;
+      
+  }
+
+  .navbar{
+
+      float: right;
+  }
+
+
+  nav ul{
+
+    margin-top:40px;
+    margin-right: 165px;
+    padding: 0;
+    list-style: none;
+}
+
+  nav li{
+
+      display: inline-block;
+      text-align: right;
+      padding-left:30px;
+
+  }
+
+  nav a{
+    color:blanchedalmond; ;
+    text-decoration: none;
+}
+
+
+a{
+    color:blanchedalmond;
+    text-decoration: none;
+}
+
+
+nav a:hover{
+    color: black;
+}
+
+a:hover{
+    color: black;
+}
+
+
+/*the text in the header*/
+.container h1{
+
+    margin-top: 350px;
+    position: absolute;
+    margin-left: 365px;
+    color: blanchedalmond;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container h3{
+
+  margin-top: 450px;
+  position: absolute;
+  margin-left: 400px;
+  color: blanchedalmond;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.button-row{
+
+
+    margin-top: 490px;
+    float: left;
+    margin-left: 0px;
+
+}
+
+button{
+  background-color: #04AA6D;
+  color: blanchedalmond;
+  font-size: 16px;
+  width: 180px;
+  height: 50px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 30px;
+  border-color:#04AA6D ;
+}
+
+button:hover{
+ background-color: transparent;
+}
+
+/*the text in the body*/
+.second_layout{
+
+    
+    /*set the height */
+    min-height: 1390px;
+    background-color: black;
+
+}
+
+button{
+
+    margin-top: 20px;
+    margin-left: 670px;
+    position: absolute;
+  }
+
+  button_don{
+
+    margin-top: 20px;
+    margin-left: 650px;
+    position: absolute;
+  }
+
+   button:hover{
+    background-color: transparent;
+   }
+  
+.racism{
+
+    margin-top: 350px;
+    margin-left: 100px;
+    color: blanchedalmond;
+    text-align: left;
+}
+
+.black_lifes_matter{
+
+    padding: 80px;
+    margin-right: 20px;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+.second_layout a{
+    color: yellow;
+}
+
+.pic_back{
+    margin-left: 520px;
+    margin-top: -20px;
+    position: absolute;
+}
+
+.about_heading{
+
+    font-size: 40px;
+    margin-left: 570px;
+    margin-top: 0px;
+    position: absolute;
+    font-weight: bold;
+    color: blanchedalmond;
+}
+
+
+/*The footer section*/
+.footer_layout{
+
+    min-height: 400px;
+    background-color: blanchedalmond;
+ }
+
+ .footer_position{
+     margin-left: 30px;
+ }
+
+ .footer_logo{
+
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 40px;
+ }
+ .found{
+
+     width: 400px;
+     height: 300px;
+     position: absolute;
+     font-size: 16px;
+     margin-top: 160px;
+     margin-left: 150px;
+ }
+ .footer_layout .row{
+     position: absolute;
+     margin-top: 280px;
+     margin-left: 135px;
+ }
+ .contact_us{
+
+    position: absolute;
+     margin-top: 130px;
+     margin-left: 635px;
+     white-space: 20px;
+
+ }
+
+ .contact{
+
+    position: absolute;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-left: 635px;
+
+}
+
+.information{
+
+    position: absolute;
+    font-size: 16px;
+    margin-top: 125px;
+    margin-left: 1100px;
+
+}
+
+.info{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-left: 1100px;
+}
