@@ -356,7 +356,7 @@ textarea{
 
  .footer_layout{
 
-    min-height: 500px;
+    min-height: 700px;
  }
 
  /*The header section*/
@@ -414,6 +414,23 @@ textarea{
    margin-left: 175px;
 
 }
+
+.information{
+
+    position: absolute;
+    font-size: 11px;
+    margin-top: 525px;
+    margin-left: 150px;
+
+}
+
+.info{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 485px;
+    margin-left: 150px;
+}
+
     
 }
 

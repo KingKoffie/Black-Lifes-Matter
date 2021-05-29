@@ -126,19 +126,19 @@ button:hover{
 
     
     /*set the height */
-    min-height: 1390px;
+    min-height: 1490px;
     background-color: black;
 
 }
 
-button{
+.button-row button{
 
     margin-top: -70px;
     margin-left: 670px;
     position: absolute;
   }
 
-  button_don{
+  .button_don button{
 
     margin-top: 20px;
     margin-left: 650px;
@@ -313,7 +313,7 @@ button{
 
  .footer_layout{
 
-    min-height: 500px;
+    min-height: 700px;
  }
 
  /*The header section*/
@@ -371,7 +371,89 @@ button{
    margin-left: 175px;
 
 }
+
+.button-row button{
+
+    margin-top: 0px;
+    margin-left: 30px;
+    position: absolute;
+  }
+
+  
+.black_lifes_matter{
+
+    padding: 80px;
+    margin-right: 20px;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+
+.pic_back{
+    margin-left: 20px;
+    margin-top: -20px;
+    width: 100px;
+    height: 200px;
+    position: absolute;
+}
+
+.pic_back img{
+
+    width: 100dp;
+}
+.about_heading{
+
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 0px;
+    position: absolute;
+    font-weight: bold;
+    color: blanchedalmond;
+}
+
+.information{
+
+    position: absolute;
+    font-size: 11px;
+    margin-top: 525px;
+    margin-left: 150px;
+
+}
+
+.info{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 485px;
+    margin-left: 150px;
+}
+
+.racism{
+
+    margin-top: 350px;
+    margin-left: 60px;
+    width: 350px;
+    text-align: left;
+}
+
+
+/*the text in the body*/
+.second_layout{
+
     
+    /*set the height */
+    min-height: 1690px;
+    background-color: black;
+
+}
+
+
+
+  .button_don button{
+
+    margin-top: 0px;
+    margin-left: 120px;
+    position: absolute;
+  }
 }
 
 

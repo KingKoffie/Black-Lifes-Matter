@@ -330,21 +330,7 @@ button:hover{
       font-size: 13px;
     }
 
-    .second_layout  img {
-        width: 200px;
-        height: 200px;
-        margin-left: -50dp;
-      }
 
-      .second_layout .row{
-
-        margin-left: 80px;
-        margin-top: 50px;
-        padding: 50px;
-        border-spacing: 20px;
-        position:absolute;
-    
-    }
 
     .column {
         float: left;
@@ -386,7 +372,7 @@ button:hover{
 
  .footer_layout{
 
-    min-height: 500px;
+    min-height: 700px;
  }
 
  /*The header section*/
@@ -444,7 +430,25 @@ button:hover{
    margin-left: 175px;
 
 }
+.information{
+
+    position: absolute;
+    font-size: 11px;
+    margin-top: 525px;
+    margin-left: 150px;
+
+}
+
+.info{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 485px;
+    margin-left: 150px;
+}
+
     
 }
+
+
 
 
