@@ -21,11 +21,6 @@
     margin-top: -10px;
 }
 
-.background .row{
-    float: left;
-    margin-left: 940px;
-    margin-top: 20px;
-}
 
   .email{
 
@@ -40,27 +35,25 @@
       
   }
 
-  .navbar{
 
-      float: right;
+  .navbar {
+    float: right;
+    margin-right: 165px;
+    margin-top: -60px;
   }
 
 
   nav ul{
-
-    margin-top:40px;
-    margin-right: 165px;
-    padding: 0;
     list-style: none;
 }
 
   nav li{
 
       display: inline-block;
-      text-align: right;
-      padding-left:30px;
+      padding: 20px;
 
   }
+
 
   nav a{
     color:blanchedalmond; ;
@@ -283,6 +276,21 @@ textarea{
 
 }
 
+.column {
+    float: right;
+    margin-right: 165px;
+    width: 33.33%;
+    margin-top: 20px;
+    padding: 5px;
+  }
+  .logo_column {
+    float: left;
+    margin-left: 165px;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+
 .information{
 
     position: absolute;
@@ -296,5 +304,117 @@ textarea{
     position: absolute;
     font-size: 20px;
     margin-top: 35px;
-    margin-left: 1100px;
+    margin-left: 1000px;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    a {
+      font-size: 13px;
+    }
+
+
+
+    .column {
+        float: left;
+        margin-left: 80px;
+        width: 73.33%;
+        margin-top: 20px;
+        padding: 5px;
+      }
+
+      .navbar {
+        float: left;
+        margin-left: 120px;
+        margin-top: 20px;
+        text-align: center
+      }
+
+
+      /*footer section*/
+    .footer_layout{
+
+        max-height: 800px;
+        background-color: blanchedalmond;
+     }
+ .footer_logo{
+
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 40px;
+ }
+ .found{
+
+     width: 400px;
+     height: 300px;
+     position: absolute;
+     font-size: 11px;
+     margin-top: 160px;
+     margin-left: 50px;
+ }
+
+ .footer_layout{
+
+    min-height: 500px;
+ }
+
+ /*The header section*/
+.background{
+
+    /*set the height of the image*/
+    min-height: 960px;
+
+}
+
+.button-row{
+
+
+    margin-top: 850px;
+    position: absolute;
+    margin-left: 140px;
+  
+  }
+
+  .container h1{
+
+    margin-top: 700px;
+    margin-left: 170px;
+    font-size: 30px;
+
+}
+
+.container h3{
+
+  margin-top: 770px;
+  margin-left: 190px;
+  font-size: 13px;
+}
+
+
+.footer_layout .row{
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 135px;
+}
+.contact_us{
+
+   position: absolute;
+    margin-top: 320px;
+    margin-left: 145px;
+    font-size: 11px;
+
+}
+
+.contact{
+
+   position: absolute;
+   font-size: 20px;
+   margin-top: 285px;
+   margin-left: 175px;
+
+}
+    
+}
+
+
