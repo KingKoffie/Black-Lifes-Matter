@@ -441,19 +441,17 @@ button:hover{
 
     
     /*set the height */
-    min-height: 1690px;
-    background-color: black;
+    min-height: 3590px;
 
 }
 
-
-
   .button_don button{
 
-    margin-top: 0px;
-    margin-left: 120px;
+    margin-top: 50px;
+    margin-left: 150px;
     position: absolute;
   }
+  
 }
 
 

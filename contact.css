@@ -379,7 +379,7 @@ textarea{
   .container h1{
 
     margin-top: 700px;
-    margin-left: 170px;
+    margin-left: 150px;
     font-size: 30px;
 
 }
@@ -387,7 +387,7 @@ textarea{
 .container h3{
 
   margin-top: 770px;
-  margin-left: 190px;
+  margin-left: 80px;
   font-size: 13px;
 }
 
@@ -406,6 +406,10 @@ textarea{
 
 }
 
+.button_don button{
+
+    margin-left: 100px;
+}
 .contact{
 
    position: absolute;
@@ -431,6 +435,64 @@ textarea{
     margin-left: 150px;
 }
 
+/*the body*/
+.form{
+
+    
+    /*set the height */
+    height: 1200px;
+    width: 400px;
+    border-radius: 4px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 40px;
+    background-color: white;
+
+}
+
+.second_layout .header{
+
+    font-size: 40px;
+    padding: 90px;
+    margin-left: 10px;
+    font-weight: bolder;
+    text-align: left;
+    
+
+}
+
+
+
+.input{
+
+    margin-left: 65px;
+}
+
+.email{
+    margin-top: 50px ;
+}
+
+.subject{
+    margin-top: 50px;
+}
+input{
+    border-color: black;
+    color: black;
+    background-color: transparent;
+    width: 230px;
+    height: 50px;
+}
+
+textarea{
+    width: 230px;
+    height: 150px;
+}
+
+iframe{
+
+    margin-left: 10px;
+    width: 430px;
+}
     
 }
 
